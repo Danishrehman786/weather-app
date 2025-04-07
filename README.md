@@ -1,34 +1,41 @@
-# Weather-Web-App
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li><a href="###installation">Installation</a></li>
-    <li><a href="#license">License</a></li>
-  </ol>
+# Weather_webApp
 
-## About The Project
-<img src="https://github.com/nagarajpandith/weather-app/blob/main/images/Screenshot%202021-08-29%20at%208.15.21%20PM-min.png">
-A simple and responsive Weather web app built using HTML, CSS and Javascript. It uses <a href="https://openweathermap.org/api">OpenWeatherMap API</a> to fetch Temperature, Weather, Humidity & Wind Speed details. It uses <a href="https://opencagedata.com/api">OpenCageData Geocoder API</a> to fetch exact location coordinates of the user. Background images are fetched from <a href="https://source.unsplash.com">Unsplash</a> and is changed according to the City name. Built based on the 2021 UI trend 'Glassmorphism' <a href="https://uxdesign.cc/glassmorphism-in-user-interfaces-1f39bb1308c9">(Read More...)</a>. Hosted using <a href="https://www.netlify.com">Netlify</a>.
+## I used open weather API to fetch data 
 
-### Built With
+### This  web project done in html,css ,js
 
-* HTML & CSS
-* Javascript
-* Vanilla tilt.js library
-* OpenWeatherMap & OpenCageData API
+#### Web link 
 
-### Installation
-To get a local copy up and running, just Clone the repo
-   ```sh
-   git clone https://github.com/nagarajpandith/weather-app
-   ```
-and fire up the Local Development server using [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
-   
-### License
+ https://sachinprajapati8604.github.io/Weather_webApp/
+ 
+ #### netlify link
+ 
+ https://spweather.netlify.app/
+ 
+### Features of the project.
 
-Distributed under the MIT License. See `LICENSE` for more information.
+* It provide dynamic weather data like temp, min max temp etc.
+* Dynamic background images change according to weather status.
+* Dynamic weather icon change according to weather status.
+* It provide basic information like feels like temperature,humidity,pressure,wind speed.
+* It will not accept empty input.
+* it will give you  alert if city name not matched with api  data.
+* a good  ux/ui 
+
+
+### Snapshot
+
+* Default 
+<img src="ss/demo1.png" width="100%">
+
+* when you entered any valid city
+ <img src="ss/demo.png" width="100%">
+
+* when you did'nt entered anything 
+ <img src="ss/empty.png" width="100%">
+
+* when entered city did'nt matched with data
+ <img src="ss/bad.png" width="100%">
+
+
+
